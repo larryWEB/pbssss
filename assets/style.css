@@ -270,6 +270,139 @@ STYLE RULES */
    }
 
 
+/* HOME PROPERTIES STYLE RUKES */
+
+
+
+
+.home-prop {
+  padding:40px;
+  line-height:1.6;
+
+  }
+  
+  
+  .home-prop img{
+  width: 100%;
+  }
+  
+  .home-prop h1{
+  font-size:60px;
+  line-height:1;
+  text-align: center;
+  padding-bottom:20px;
+  font-weight: 500;
+  }
+  
+  .home-prop h1 span{
+  color:var(--main-color);
+  font-weight: 700;
+  }
+  
+  .home-prop-mother{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .home-prop-child{
+  padding-bottom:60px}
+  
+  
+  
+  .home-prop-child-text{
+    border:1px solid rgba(0, 0, 0, 0.175);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+  }
+  
+  .home-prop-child-text h4{
+   padding:15px;
+   font-size: 20px;
+  }
+  
+  .home-prop-child-text h6{
+   padding:0px 20px 0px 20px;
+   font-size: 15px;
+   color: var(--main-color);
+  }
+  
+  .home-prop-child-text p{
+   padding:0px 20px 9px 20px;
+   font-size: 15px;
+  }
+  
+  
+  .grand-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  
+  .grand-child span{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding:10px;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,6 +412,7 @@ STYLE RULES */
     padding:50px 50px 50px 20px ;
     background-color: black;
     color:white;
+    z-index: 1;
        }
     
     
