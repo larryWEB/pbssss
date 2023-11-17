@@ -74,234 +74,399 @@
            
 
 
-<style>
-
-    .pp{
-position: relative;
-top:120px;
-    }
-
-
-  
-</style>
-  
-<section class="home-prop pp" style="z-index: -20;">
-
-    <h1> Our Featured <span> Properties</span> </h1>
-    
-    
-   
-    
-    
-      <div class="home-prop-child">
-    
-        <div class="home-prop-child-img">
-    
-        <img src="assets/images/house (2).JPG" alt="">
-    
-        </div>
-    
-        <div class="home-prop-child-text">
-    <h4> 4 Bedroom Detached Duplex Available for Sales</h4>
-    <h6>Ajah</h6>
-    <p>Lekki, Lagos 23889</p>
-    
-    <hr>
-    
-    <div class="grand-child">
-    
-      <span>
-        <p> 5</p>
-        <p>Beds</p>
-      </span>
-    
-      <span>
-        <p> 5</p>
-        <p>Baths</p>
-      </span>
-    
-    </div>
-        </div>
-      </div>
-      
-    
-    
-    </section>
-
-
-
-    <style>
-
-.p-d-f{
-padding:45px;
-display: flex;
-flex-direction: column;
-gap: 40px;
-
-}
-
-.p-d-f div{
-display: flex;
-flex-direction: column;
-gap: 20px;
-}
-
-
-.p-d-f h3{
-font-size:20px;
-color: var(--main-color);
-}
 
 
 
 
 
-    </style>
+          <style>
 
+            .pp{
+        position: relative;
+        top:40px;
+            }
+        
+        
+          
+        </style>
+          
+        <section class="home-prop pp" style="z-index: -20;">
+        
+            <h1> Our Featured <span> Properties</span> </h1>
+            
+        </section>        
 
-<section class="p-d-f">
-
-
-<div class="price">
-<h3>PRICE</h3>
-<p> N 390M</p>
-</div>
-
-<div class="description">
-
-<h3>DESCRIPTION</h3>
-
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae libero saepe autem, 
-    iure quaerat sint voluptatem suscipit, atque tenetur asperiores obcaecati laudantium neque 
-    adipisci quis. Dolore, necessitatibus deserunt? Minus. Lorem ipsum dolor sit amet consectetur
-     adipisicing elit. Velit repudiandae libero saepe autem, 
-    iure quaerat sint voluptatem suscipit, atque tenetur asperiores obcaecati laudantium neque 
-    adipisci quis. Dolore, necessitatibus deserunt? Minus</p>
-
-</div>
-
-
-
-<div class="features">
-
-    <h3>FEATURES</h3>
-
-
-    <div class="features-mother">
-
-    <span>
-<i></i>
-<p>Serene Environment</p>
-    </span>
-
-    <span>
-        <i></i>
-        <p>Serene Environment</p>
-            </span>
-
-            <span>
-                <i></i>
-                <p>Serene Environment</p>
-                    </span>
-
-                    <span>
-                        <i></i>
-                        <p>Serene Environment</p>
-                            </span>
-
-                            <span>
-                                <i></i>
-                                <p>Serene Environment</p>
-                                    </span>
-
-                                    <span>
-                                        <i></i>
-                                        <p>Serene Environment</p>
-                                            </span>
-
-                                            <span>
-                                                <i></i>
-                                                <p>Serene Environment</p>
-                                                    </span>
-
-                                                    <span>
-                                                        <i></i>
-                                                        <p>Serene Environment</p>
-                                                            </span>
-                
-
-</div>                                      
-</div>
-
-</section>
 
 
 <style>
 
-.fixed-cta{
-    display:flex;
-    padding: 23px;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: -9;
-    top:87%;
-}
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+          
+          }
+          
+          /* Next & previous buttons */
+          .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+          
+        
+          
+          /* The dots/bullets/indicators */
+          .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+          
+          .active, .dot:hover {
+            background-color: #717171;
+          }
+          
+          /* Fading animation */
+          .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+          
+          @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+          }
+          
+          /* On smaller screens, decrease text size */
+          @media only screen and (max-width: 300px) {
+            .prev, .next,.text {font-size: 11px}
+          }
+          </style>
+          </head>
+          <body>
+          
+          <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+         
+            <img src="assets/images/house (1).JPG" style="width:100%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+        
+            <img src="assets/images/house (2).JPG" style="width:100%">
+           
+          </div>
+          
+          <div class="mySlides fade">
 
-.fixed-cta div{
- border:2px solid white;
-padding:15px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-color:white;
-}
-
-.call{
-    background-color:blueviolet;
-}
-
-.mess{
-    background-color:grey;
-}
-
-.live{
-    background-color:green;
-}
+            <img src="assets/images/house (3).JPG" style="width:100%">
+           
+          </div>
 
 
+          <div class="mySlides fade">
+         
+            <img src="assets/images/house (4).JPG" style="width:100%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+        
+            <img src="assets/images/house (5).JPG" style="width:100%">
+           
+          </div>
+          
+          <div class="mySlides fade">
 
-</style>
+            <img src="assets/images/house (6).JPG" style="width:100%">
+           
+          </div>
 
 
 
-<section class="fixed-cta">
+          <div class="mySlides fade">
+         
+            <img src="assets/images/house (7).JPG" style="width:100%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+        
+            <img src="assets/images/house (8).JPG" style="width:100%">
+           
+          </div>
+          
+          <div class="mySlides fade">
 
-    <div class="call">
-        <i class="fa-solid fa-bars" width="70"> </i>
-<p>Call</p>
-    </div>
+            <img src="assets/images/house (3).JPG" style="width:100%">
+           
+          </div>
 
-    <div class="mess">
-        <i class="fa-solid fa-bars" width="70"> </i>
-        <p>Message</p>
+
+
+          <div class="mySlides fade">
+
+            <img src="assets/images/house (3).JPG" style="width:100%">
+           
+          </div>
+
+
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+            <span class="dot" onclick="currentSlide(7)"></span> 
+            <span class="dot" onclick="currentSlide(8)"></span> 
+            <span class="dot" onclick="currentSlide(9)"></span> 
+            <span class="dot" onclick="currentSlide(10)"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+          
+
+
+
+
+
+
+          <style>
+
+            .p-d-f{
+            padding:45px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            
+            }
+            
+            .p-d-f div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            }
+            
+            
+            .p-d-f h3{
+            font-size:20px;
+            color: var(--main-color);
+            }
+            
+            
+            
+            
+            
+                </style>
+            
+            
+            <section class="p-d-f">
+            
+            
+            <div class="price">
+            <h3>PRICE</h3>
+            <p> N 390M</p>
             </div>
+            
+            <div class="description">
+            
+            <h3>DESCRIPTION</h3>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae libero saepe autem, 
+                iure quaerat sint voluptatem suscipit, atque tenetur asperiores obcaecati laudantium neque 
+                adipisci quis. Dolore, necessitatibus deserunt? Minus. Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Velit repudiandae libero saepe autem, 
+                iure quaerat sint voluptatem suscipit, atque tenetur asperiores obcaecati laudantium neque 
+                adipisci quis. Dolore, necessitatibus deserunt? Minus</p>
+            
+            </div>
+            
+            
+            
+            <div class="features">
+            
+                <h3>FEATURES</h3>
+            
+            
+                <div class="features-mother">
+            
+                <span>
+            <i></i>
+            <p>Serene Environment</p>
+                </span>
+            
+                <span>
+                    <i></i>
+                    <p>Serene Environment</p>
+                        </span>
+            
+                        <span>
+                            <i></i>
+                            <p>Serene Environment</p>
+                                </span>
+            
+                                <span>
+                                    <i></i>
+                                    <p>Serene Environment</p>
+                                        </span>
+            
+                                        <span>
+                                            <i></i>
+                                            <p>Serene Environment</p>
+                                                </span>
+            
+                                                <span>
+                                                    <i></i>
+                                                    <p>Serene Environment</p>
+                                                        </span>
+            
+                                                        <span>
+                                                            <i></i>
+                                                            <p>Serene Environment</p>
+                                                                </span>
+            
+                                                                <span>
+                                                                    <i></i>
+                                                                    <p>Serene Environment</p>
+                                                                        </span>
+                            
+            
+            </div>                                      
+            </div>
+            
+            </section>
+            
+            
+            <style>
+            
+            .fixed-cta{
+                display:flex;
+                padding: 23px;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                z-index: -9;
+                top:87%;
+            }
+            
+            .fixed-cta div{
+             border:2px solid white;
+            padding:15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color:white;
+            }
+            
+            .call{
+                background-color:blueviolet;
+            }
+            
+            .mess{
+                background-color:grey;
+            }
+            
+            .live{
+                background-color:green;
+            }
+            
+            
+            
+            </style>
+            
+            
+            
+            <section class="fixed-cta">
+            
+                <div class="call">
+                    <i class="fa-solid fa-bars" width="70"> </i>
+            <p>Call</p>
+                </div>
+            
+                <div class="mess">
+                    <i class="fa-solid fa-bars" width="70"> </i>
+                    <p>Message</p>
+                        </div>
+            
+                        <div class="live">
+                            <i class="fa-solid fa-bars" width="70"> </i>
+                            <p>Live Chat</p>
+                                </div>
+            
+            
+            
+            
+            </section>
 
-            <div class="live">
-                <i class="fa-solid fa-bars" width="70"> </i>
-                <p>Live Chat</p>
-                    </div>
 
 
 
-
-</section>
-
-
-
-
-
+    
 
 
 
