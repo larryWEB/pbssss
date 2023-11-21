@@ -204,47 +204,12 @@ width:100%;
 position:absolute;
 top:55px;
 
-filter: brightness(38%);
+filter: brightness(28%);
 
 }
 
 
-.homepage{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- 
-  }
-  
 
-.home-text{
-z-index: 1;
-color: white;
-padding:30px 30px 30px 30px;
-text-align: center;
-position: relative;
-justify-content: center;
-align-items: center;
-}
-
-.home-text img{
-width:300px;
-height:300px;
-  }
-  
-
-
-.home-text h5{
-  font-size:20px;
-   }
-   
-   .home-text p{
-    font-weight:bold;
-    color:rgb(231, 170, 17);
-     font-size:20px;
-     }
- 
 
 
 /* HOME 
@@ -253,7 +218,7 @@ STYLE RULES */
 
 .home-img,.home-big-img{
 	width:100%;
-	animation:zoomInOut 15s linear infinite;
+
    }
    
    
