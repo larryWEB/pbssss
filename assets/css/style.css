@@ -166,6 +166,7 @@ position: fixed;
 #menu-bar img {
 position:relative;
 top:-30px;
+width: 150px;
   }
 
 .nav-link a {
