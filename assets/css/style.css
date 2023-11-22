@@ -312,17 +312,20 @@ STYLE RULES */
   .home-prop-child-text h4{
    padding:15px;
    font-size: 20px;
+   font-family:var(--font-1);
+color: var(--main-color);
   }
   
   .home-prop-child-text h6{
    padding:0px 20px 0px 20px;
    font-size: 15px;
-   color: var(--main-color);
+
   }
   
   .home-prop-child-text p{
    padding:0px 20px 9px 20px;
    font-size: 15px;
+   text-align: left;
   }
   
   
