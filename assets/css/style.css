@@ -12,7 +12,7 @@
 
 
 :root {
-  --main-color:rgb(3, 77, 3);
+  --main-color:rgb(10, 144, 10);
   
   }
 
@@ -115,7 +115,7 @@ z-index: 1;
 top: 15px;
 width: 30px;
 height: 30px;
-color: var(--color-light-purple);
+color: var(--main-color);
 display: flex;
 justify-content: center;
 }
@@ -133,8 +133,8 @@ position: absolute;
 background-color: white;
 height: 100%;
 transition: all 0.4s ease 0s;
-top: 100px;
-width: 100%;
+top: 55px;
+width: 70%;
 gap: 20px;
 right: 0px;
 z-index: 40;
@@ -146,7 +146,7 @@ position: fixed;
 
 .nav-link a {
 text-decoration: none;
-color: rgb(231, 170, 17);
+color: var(--main-color);
 font-weight: 400;
 font-size: 27px;
 }
@@ -157,10 +157,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 position: relative;
-margin: 26px;
+margin: 46px;
 font-weight: bold;
 font-family: Orbitron, sans-serif;
-top:-40px;
+top:-30px;
 }
 
 #special-btn {
@@ -241,10 +241,16 @@ STYLE RULES */
 
 
 .home-prop {
-  padding:40px;
+  padding:40px 30px 30px 10px;
   line-height:1.6;
 
   }
+
+  .home-prop p {
+ text-align: center;
+  
+    }
+    
   
   
   .home-prop img{
@@ -265,9 +271,10 @@ STYLE RULES */
   }
   
   .home-prop-mother{
-  padding-top: 20px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
+  padding-left:20px;
   }
   
   .home-prop-child{
@@ -336,41 +343,6 @@ STYLE RULES */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    
 
    footer{
@@ -387,18 +359,19 @@ STYLE RULES */
         gap:20px;
     justify-content: start;
     align-items: center;
-    padding-bottom:20px;
+    padding-bottom:30px;
         }
     
     
     
     .foot-social i{
-      border:2px solid var(--color-light-purple);
+      border:2px solid white;
       border-radius:100px;
       position:relative;
       padding:17px;
-      background-color:var(--color-light-purple);
-      
+      background-color:white;
+      color: var(--main-color);
+      font-size: 25px;
       }
     
       
@@ -407,13 +380,15 @@ STYLE RULES */
     footer h1{
       font-size: 23px;
       font-weight: 300;
-      padding: 10px 0 10px 0;
-      color:var(--color-light-purple);
+      padding: 14px 0 14px 0;
+      color:var(--main-color);
     }
          
     
     footer p {
       font-weight: 100;
+      text-align: left;
+      padding: 10px 10px 10px 0px;
     }
          
     .foot-mother{
