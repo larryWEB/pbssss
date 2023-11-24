@@ -165,7 +165,7 @@ position: fixed;
 
 #menu-bar img {
 position:relative;
-top:-30px;
+top:-20px;
 width: 170px;
   }
 
@@ -183,10 +183,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 position: relative;
-margin: 36px;
+margin: 26px;
 font-weight: bold;
 font-family: var(--font-2);
-top:-90px;
+top:-70px;
 }
 
 #special-btn {
@@ -270,11 +270,7 @@ STYLE RULES */
      /* Slideshow container */
   /* Slideshow container */
    
-     .mySlides {
-         
-      
-     }
-     
+    
      /* Slideshow container */
      .slideshow-container {
          display: flex;
@@ -376,11 +372,7 @@ STYLE RULES */
           
       }
 
-
-
-
-
-
+*/
 
 
 
