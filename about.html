@@ -6,7 +6,7 @@
         <title>
   PROPERTIES BY SINBAD || PBS
         </title>
-        <link rel="icon" type="image/png" href="/assets/images/">
+        <link rel="icon" type="image/png" href="/assets/images/logo (1).PNG">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -22,8 +22,7 @@
         <link
           href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
-     
-          
+      
             <!--============ LIGHTBOX ===============-->
             <script src="assets/js/lightbox-plus-jquery.js"></script>
             <link href="assets/css/lightbox.min.css" rel="stylesheet" type="text/css">
@@ -59,26 +58,30 @@
       </header>
       
        <div id="menu-bar" class="slide">
+
+        <img src="assets/images/logo (1).PNG" width="100%">
       
-                   <div class="nav-link-card">
+                  <div class="nav-link-card">
             
-                 <div class="nav-link">  <a href="index.html">Home</a></div>
+                    <div class="nav-link">  <a href="index.html">Home</a></div>
                    
                   <div class="nav-link">  <a href="about.html">About</a></div>
 
                   <div class="nav-link">   <a href="services.html">Services</a></div>
                  
                   <div class="nav-link">   <a href="properties.html">Properties</a></div>
+                  
+                  <div class="nav-link">   <a href="testimonial.html">Testimonials</a></div>
         
-                  <div  class="nav-link">   <a href="contact.html">Contact</a></div>
+                  <div  class="nav-link">   <a href="contacts.html">Contact</a></div>
 
-                  <div class="nav-link">   <a href="">Affiliate</a></div>
+                  <div class="nav-link">   <a href="https://forms.gle/76Qfqu1pCPBZt23s6">Affiliate</a></div>
         
                   </div>
           
         
           </div>
-          </header>    
+          </header>   
            
 
 
@@ -141,7 +144,7 @@ TEAM
 
       <div class="abt-ceo">
 
-<h2> THE LEAD COMSULTANT</h2>
+<h2 style="text-align: center;"> THE LEAD COMSULTANT</h2>
 <h4>JOGBO OMOTOYOSI</h4>
 
 <img src="assets/images/IMG_0789.PNG" width="100%">
@@ -231,6 +234,26 @@ ABOUT <br>
 
 
 
+<!--AFFILIATE SECTION-->
+<!--AFFILIATE SECTION-->
+<!--AFFILIATE SECTION-->
+<!--AFFILIATE SECTION-->
+
+
+
+<section class="affiliate">
+
+  <h1>Become an affiliate</h1>
+  
+  <p>Click on the link below to get started with our affiliate program</p>
+  
+  <button> Register</button>
+  
+  
+  
+  
+  </section>
+  
 
 
 <footer>
@@ -321,10 +344,12 @@ ABOUT <br>
 
 
     .sec-abt-left h3{
-    letter-spacing: -3;
+    letter-spacing: 3;
   font-weight: 550;
         font-size:40px;
         padding-bottom:20px;
+        text-align: center;
+        font-family: var(--font-1);
     }
     
     .sec-abt-left p{
@@ -334,7 +359,7 @@ ABOUT <br>
 
     
     .sec-abt-right img{
-    width:40%;
+    width:80%;
     padding-bottom:30px;
     }
     
@@ -390,6 +415,7 @@ ABOUT <br>
     padding-bottom:20px;
     font-size:30px;
   letter-spacing: 4;
+  text-align: center;
 }
 
     
@@ -411,11 +437,11 @@ opacity: 9;
 	background-repeat: no-repeat;
 	background-size: cover;
   z-index: -2;
-  background-image: url("assets/images/food\ \(3\).JPG");
+  background-image: url("assets/images/big-bg\ \(3\).jpg");
   position:relative;
-  padding:40px 30px 70px 30px;
+  padding:40px 50px 70px 30px;
   background-blend-mode: overlay;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.931);
   object-fit: fill;
 top:100px;
 color: white;
@@ -429,6 +455,7 @@ color: white;
     font-weight: 700;
     position:relative;
     top:10px;
+    text-align: center;
 }
 
 
@@ -441,11 +468,16 @@ color: white;
 .abt-team p{
 line-height:2;
  text-align: justify;
+
 }
 
 
 .abt-ceo{
     padding-top:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .abt-ceo h2{
@@ -457,13 +489,213 @@ font-weight: 400;
 
 .abt-ceo h4{
     color: var(--main-color);
-
+   
 }
 
 .abt-ceo img{
   padding-top:20px;
   padding-bottom:40px;
 }
+
+
+
+
+/*MEDIA QUERY / MEDIA QUERY / MEDIA QUERY */
+
+
+@media (min-width: 728px) {
+    
+  .sec-abt-left{
+    padding:160px 50px 50px 30px;
+    } 
+  
+
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+    
+  .sec-abt-left{
+      padding:100px 150px 50px 130px;
+     
+      } 
+    
+
+        .sec-abt-left h3{
+    letter-spacing: 3;
+  font-weight: 550;
+        font-size:60px;
+        padding-bottom:20px;
+        text-align: center;
+        font-family: var(--font-1);
+    }
+  
+      .abt-abt{
+        position:relative;
+      top:-15px;
+      padding:0px 100px 50px 100px;
+    }
+  
+  
+    .sec-abt-right img{
+    width:800px;
+    height:800px;
+    padding-bottom:30px;
+    }
+
+
+    .sec-abt-right button{
+       padding:15px;
+       width:300px;
+       font-size: 27px;
+       border-radius:10px;
+       border:2px solid  var(--main-color);
+       color: var(--main-color);
+       position: relative;
+       top:50px;
+    }
+    
+
+
+
+    
+/* ABT-2 
+   ABT-2 
+   ABT-2 
+*/ 
+
+
+
+.abt-2{
+        background-color: rgba(214, 217, 217, 0.236); 
+        padding:50px 150px 100px 130px;
+        margin-top:120px;
+    }
+    
+    .sec-abt-left{
+    padding:150px 50px 50px 30px;
+    }
+    
+    .abt-2 h1 span{
+    
+        font-size:90px;
+        padding-bottom:20px;
+        color: var(--main-color);
+        letter-spacing: -10;
+        font-weight: 600;
+        position:relative;
+        top:10px;
+        font-family: var(--font-1);
+    }
+
+
+    .abt-2 h1{
+    padding-bottom:20px;
+    font-size:40px;
+  letter-spacing: 4;
+  text-align: center;
+}
+
+    
+    .abt-2 p{
+        text-align: justify;
+    line-height: 1.7;
+}
+
+
+
+/* ABT-TEAM
+ABT-TEAM
+ABT-TEAM
+*/ 
+
+
+.abt-team{
+opacity: 9;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  z-index: -2;
+  background-image: url("assets/images/big-bg\ \(3\).jpg");
+  position:relative;
+  padding:40px 150px 70px 150px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.967);
+  object-fit: fill;
+top:100px;
+color: white;
+}
+
+
+.abt-team h1{
+    font-size:80px;
+    padding-bottom:30px;
+    padding-top:60px;
+    letter-spacing: -3;
+    font-weight: 700;
+    position:relative;
+    top:10px;
+    text-align: center;
+    font-family: var(--font-1);
+}
+
+
+.abt-team span{
+    color: var(--main-color);
+   
+}
+
+
+.abt-team p{
+line-height:2;
+ text-align: justify;
+
+}
+
+
+.abt-ceo{
+    padding-top:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-ceo h2{
+font-size:35px;
+font-weight: 400;
+
+
+}
+
+
+.abt-ceo h4{
+    color: var(--main-color);
+    font-size:20px;
+   
+}
+
+.abt-ceo img{
+  padding-top:20px;
+  padding-bottom:40px;
+  width: 500px;
+}
+
+
+
+
+
+
+
+
+
+  
+  }
+  
+
 
 
 
