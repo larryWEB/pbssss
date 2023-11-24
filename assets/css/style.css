@@ -431,7 +431,7 @@ STYLE RULES */
   }
   
   .home-prop h1 span{
-  color:var(--main-color);
+  color:var(--dark-main-color);
   font-weight: 700;
   }
   
